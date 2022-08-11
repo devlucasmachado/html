@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+section  {
+    background-color: lightgoldenrodyellow;
+    font-family: cambria;
+    font-size: 20px;
+    margin: 15px;
+}
+h1 {
+    text-align: center;
+    font-size: 1.3em;
+}
+h2 {
+    font-size: 1.0em;
+}
+p {
+    text-align: justify;
+}

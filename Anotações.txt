@@ -1,0 +1,22 @@
+height - altura
+
+width - largura
+
+padding - espaço entre a borda e o conteúdo
+
+border - borda, primeiro contato com o conteúdo caso o padding seja 0
+
+outline - após a borda, antes da margen
+
+margin - colado na borda, caso o outline seja 0
+
+
+Tipos de caixa:
+
+box-level - se inicia na proxima linha
+
+	<DIV>, <H1> À <H6>, <P>, <MAIN>, <HEADER>, <NAV>, <ARTICLE>, <ASIDE>, <FOOTER>, <FORM>, <VIDEO>
+
+inline-level - se inicia na mesma linha
+
+	<SPAN>, <LINKS>, <A>, <CODE>, <SMALLl, <STRONG>, <EM>, <SUP>-<SUB>, <LABELl, <INPUT>, <SELECT>

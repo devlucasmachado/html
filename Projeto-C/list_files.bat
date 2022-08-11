@@ -1,0 +1,1 @@
+dir "C:\Users\gusta\Desktop\html css" /b > "C:\Users\gusta\Desktop\html css\Projeto C\list_files.txt"
