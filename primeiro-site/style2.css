@@ -18,17 +18,9 @@
 
 }
 
-:root {
-    --cor01: #5B93F5;
-    --cor02: #0F5ADB;
-    --cor03: #0C46A8;
-    --cor04: #263D66;
-    --cor05: #06265C;
-}
-
 header {
     font-family: Arial, Helvetica, sans-serif;
-    background-image:linear-gradient(to bottom, var(--cor01), var(--cor05));
+    background-image:linear-gradient(to bottom, #2fa866, #063d1e);
     padding: 40px;
     min-height: 150px;
 }
@@ -64,7 +56,7 @@ body {
 #cabecalho {
     padding-left: 15px;
     min-height: 35px;
-    background-color: var(--cor05);
+    background-color: #063d1e;
 }
 
 .menu {
@@ -86,13 +78,13 @@ body {
 
 .menu li a {
     text-decoration: none;
-    color: var(--cor01);
+    color: #72cf9c;
     font-weight: bold;
 }
 
 .menu li a:hover {
-    background-color: var(--cor03);
-    color: var(--cor05);
+    background-color: #288550;
+    color: #063d1e;
     padding: 7px;
     border-radius: 5px;
 }
@@ -119,7 +111,7 @@ body {
     padding-top: 30px;
     font-size: 2em;
     font-family: 'idroid'; 
-    color:var(--cor05);
+    color:#1B5936;
     margin-left: 15px;
     font-weight: normal;
 }
@@ -134,26 +126,26 @@ body {
 .h2_main {
     font-size: 1.5em;
     font-family: 'idroid';
-    color:var(--cor05);
+    color:#1B5936;
     margin-left: 15px;
     font-weight: normal;
-    background-image: linear-gradient(to right, var(--cor01), transparent);
+    background-image: linear-gradient(to right, #84E1AD, transparent);
 }
 
 .destaque_p {
-    color: var(--cor05) ;
+    color:#15472b ;
     text-decoration: none;
     font-weight: bold;
 }
 
 a.mencao{
-    background-color: var(--cor01);
+    background-color: #83d8a8;
     text-decoration: none;
     font-weight: bold;
     padding: 2px 5px 2px 5px;
     padding-left: 5px;
     padding-right: 10px;
-    color: var(--cor05);
+    color: #063d1e;
 }
 
 a.mencao::after {
@@ -172,7 +164,7 @@ main img {
     margin: auto;
 }
 div.videos {
-    background-color: var(--cor05);
+    background-color: #063d1e;
     padding: 20px;
     padding-bottom: 58%;
     position: relative;
@@ -186,7 +178,7 @@ div.videos > iframe {
 }
 
 .aprender_mais {
-    background-color: #609aff;
+    background-color: #83d8a8;
     margin: 30px 30px 10px 30px;
     border-radius: 10px;
     line-height: 2;
@@ -197,7 +189,7 @@ div.videos > iframe {
 .aprender_mais > h2 {
     font-size: 1.5em;
     font-weight: bold;
-    background-color: var(--cor05);
+    background-color: #116435;
     border-radius: 10px 10px 0px 0px;
     color: white;
     text-indent: 10px;
@@ -228,7 +220,7 @@ div.videos > iframe {
 
 footer {
     font-size: 0.8em;
-    background-color: var(--cor05);
+    background-color: #063d1e;
     text-align: center;
     padding: 5px;
     color: white;

@@ -1,5 +1,6 @@
+.gitattributes
 Anota‡äes.txt
-cria pastas.py
+cria-pastas.py
 ex001
 ex002
 ex003
@@ -22,5 +23,8 @@ ex019
 ex020
 ex021
 ex022
-primeiro site
-Projeto C
+ex023
+LICENSE
+primeiro-site
+Projeto-C
+README.md
