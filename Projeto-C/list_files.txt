@@ -1,4 +1,5 @@
 .gitattributes
+.gitignore
 Anota‡äes.txt
 cria-pastas.py
 ex001
