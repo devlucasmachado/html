@@ -25,7 +25,9 @@ ex020
 ex021
 ex022
 ex023
+ex024
 LICENSE
 primeiro-site
 Projeto-C
+projeto-cordel
 README.md
