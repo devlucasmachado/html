@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post" autocomplete="off">
+    <p> <label for="iuser">Usuario:</label>
+
+            <input type="text" name="user" id="iuser" required minlength="4" maxlength="15" placeholder="user" >
+    </p>
+
+    <p><label for="ipwd">Senha:</label>
+        <input type="password" name="pwd" id="ipwd" required minlength="4" max="15" placeholder="senha">
+    </p>
+    <p><input type="submit">
+        <input type="reset" value="Limpar"></p>
+    
+    </form>
+</body>
+</html>

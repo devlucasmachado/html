@@ -26,8 +26,11 @@ ex021
 ex022
 ex023
 ex024
+ex025
+ex026
 LICENSE
 primeiro-site
 Projeto-C
 projeto-cordel
 README.md
+redes-sociais
