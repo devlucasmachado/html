@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+    <form action="">
+        <div>
+            <label for="iest">Estado:</label>
+            <select name="est" id="iest">
+                <option value="" selected>---Escolha---</option>
+                <optgroup label="Sudeste">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="ES">Espirito Santo</option>
+                </optgroup>
+                <optgroup label="Maior de todos">
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+        
+        
+            </select>
+        </div>
+        
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="proflist">
+            <datalist id="proflist">
+                <option>Desenvolvedor</option>
+                <option>Carpinteiro</option>
+                <option>Player</option>
+            </datalist>
+        </p>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+
+        <div>
+            <label for="imns">Mensagem: </label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </div>
+    </form>
+</body>
+</html>

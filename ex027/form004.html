@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        form {
+            display: grid;
+
+        }
+
+        form > fieldset{
+            margin: auto;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <form action="" autocomplete="off">
+
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="inoe">Nome: </label>
+                <input type="text" name="nome" id="inome" placeholder="Digite seu nome" required autocomplete="name">
+            </p>
+            
+            <p>
+                <label for="itel">Telefone: </label>
+                <input type="tel" name="tel" id="itel" autocomplete="tel" pattern="^\d{4}-\d{4}$">
+            </p>
+            <p>
+                <label for="iemail">E-mail</label>
+                <input type="email" name="email" id="iemail" required>
+            </p>
+            <p>
+                <input type="submit" value="Enviar" id="enviar">
+                <input type="reset" value="Limpar" id="limpar">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
