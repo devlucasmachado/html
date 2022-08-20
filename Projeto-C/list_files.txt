@@ -28,6 +28,8 @@ ex023
 ex024
 ex025
 ex026
+ex027
+flexbox
 LICENSE
 primeiro-site
 Projeto-C
