@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+/* fallback */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v138/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+  }
+  
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(148, 147, 147); 
+}
+
+i#burguer {
+    background-color: rgb(87, 87, 87);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+header h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    background-color: lightgray;
+}
+
+a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(87, 87, 87);
+    color: white;
+    border-top: 2px solid gray;
+}
+
+ul {
+    list-style: none;
+}
+
+menu li{
+    color: white;
+    background-color: rgb(87, 87, 87);
+}
+
+menu li:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+main {
+    margin: 10px auto 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    max-width: 90vw;
+}
+
+main > h2 {
+    padding-bottom: 20px;
+}
+
+main p {
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 1.5;
+    padding: 10px;
+}
