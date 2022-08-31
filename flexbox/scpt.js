@@ -8,7 +8,6 @@ class mobilebar {
     }
     
     handleclick(){
-        console.log(this);
         this.navlist.classList.toggle(this.activeClass)
         this.mobilemenu.classList.toggle(this.activeClass)
     }
