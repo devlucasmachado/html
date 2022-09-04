@@ -1,7 +1,7 @@
 const res = document.getElementById('res')
 const botoes = document.querySelectorAll('.botao')
 var contagem = 0
-console.log(botoes)
+
 botoes.forEach(function(botao) {
     botao.addEventListener('click', function (e) {
         const styles = e.currentTarget.classList
