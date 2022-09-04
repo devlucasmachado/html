@@ -154,6 +154,11 @@ output{
         margin: -5px;
     }
 
+    .tabuleiro {
+        grid-template-rows: 20vh 30vh 15vh;
+        
+    }    
+
     .tabuleiro-header-centro {
         margin: auto;
         text-align: center;
